@@ -12,5 +12,5 @@ function count_both(value2:string, spaces?:boolean): number{
         return value2.replace(" ","").length;
     }
 }
-let bothCount = count_both("test 1", true);
+let bothCount = count_both("test 1", true);//the ? will make it 
 console.log(bothCount);
